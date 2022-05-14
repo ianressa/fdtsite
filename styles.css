@@ -1,0 +1,73 @@
+html{
+    font-family: monospace, monospace;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+img{
+	image-rendering: optimizeSpeed;
+	image-rendering: -moz-crisp-edges;
+	image-rendering: optimize-contrast;
+}
+
+body {
+        color: white;
+        background-color: black;
+	background-image: url(images/grantbg.gif);
+	font-size: 12px;
+}
+
+.short {
+	max-width: 50em;
+	margin: 60 auto;
+	left: 50%;
+}
+
+.navbox {
+    color: #000000;
+    background-color: #aaaaaa;
+    margin: 20 auto;
+    left: 50%;
+    min-height: 6em;
+    border-width: 4px;
+    border-style: ridge;
+}
+
+.navbox:hover {
+    border-style: groove;
+}
+
+ul{
+	max-width: 50em;
+	margin: 20 auto;
+	left: 50%;
+}
+
+h1{
+	font-size: 1.5em;
+	text-align: center;
+}
+
+h2{
+	font-size:1.3em;
+	color:black;
+	text-align: center;
+}
+
+a:link{
+}
+
+a:visited{
+}
+
+a:hover{
+}
+
+::selection{
+}
+
+code{
+	color:white;
+	background-color:#333333;
+	padding:1px;
+}
