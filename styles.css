@@ -31,12 +31,14 @@ body {
     min-height: 6em;
     border-width: 4px;
     border-style: ridge;
+    box-shadow: 3px 3px 5px 3px #111111;
 }
 
 .navbox:hover {
     border-style: groove;
     background-color: #888888;
     border-color: #777777;
+    box-shadow: 0px 0px 0px 0px #000000;
 }
 
 ul{
@@ -63,9 +65,6 @@ a:visited{
 }
 
 a:hover{
-}
-
-::selection{
 }
 
 code{
