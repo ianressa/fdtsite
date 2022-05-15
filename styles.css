@@ -35,6 +35,8 @@ body {
 
 .navbox:hover {
     border-style: groove;
+    background-color: #888888;
+    border-color: #777777;
 }
 
 ul{
