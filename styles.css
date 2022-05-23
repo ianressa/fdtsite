@@ -53,6 +53,27 @@ body {
     text-align: center;
 }
 
+.homebutton {
+    color: #000000;
+    padding: 4px;
+    text-align: center;
+    float: right;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+
+    border-style: ridge;
+    background-color: #aaaaaa;
+    box-shadow: 2px 2px 4px 2px #111111;
+}
+
+.homebutton:hover{
+    border-style: groove;
+    background-color: #888888;
+    border-color: #777777;
+    box-shadow: 0px 0px 0px 0px #000000;
+}
+
 ul{
 	max-width: 50em;
 	margin: 20 auto;
